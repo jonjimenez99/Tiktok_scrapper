@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tiktok-webscrapper"
+version = "0.1.0"
+description = "Packages to scrap tiktok"
+authors = ["Jonny Jimenez <andrescover.99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.2"
+numpy = "^2.1.1"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
